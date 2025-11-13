@@ -57,7 +57,6 @@ This PoC is mapped to several control frameworks to show how cloud-native Zero T
 
 ## Repository Layout
 
-```text
 Zero-Trust-PoC/
 ├── README.md
 ├── project_summary.md
@@ -77,3 +76,18 @@ Zero-Trust-PoC/
     ├── variables.tf
     ├── outputs.tf
     └── terraform.tfvars.example
+
+Infrastructure-as-Code Note
+
+Portions of this PoC were built using Terraform to provision the VPC, subnets,
+route tables, and private EC2 instances. While the Terraform files are not
+included in this repository, the project demonstrated:
+
+- Network provisioning via IaC
+- Segmentation using private subnets
+- Repeatable deployment patterns
+- Use of variables, outputs, and modular structure
+
+These Terraform components were primarily used to support the Zero Trust testing
+environment and validate the architecture described in this documentation.
+
