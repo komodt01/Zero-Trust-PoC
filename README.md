@@ -18,7 +18,7 @@ AWS is used as the supporting PoC platform to demonstrate selected controls in p
 
 ### Executive Case Study
 
-**[Executive Case Study: Protecting a Regional Bank as Digital Services Expand](Executive Case Study.md)**
+[Executive Case Study: Protecting a Regional Bank as Digital Services Expand](Executive%20Case%20Study.md)
 
 A business-focused view of the hypothetical regional bank scenario. It focuses on customer trust, business risk, isolation, containment, resilience, and the impact of a security failure without requiring the reader to understand the underlying cloud technologies.
 
